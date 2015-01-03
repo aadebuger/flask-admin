@@ -18,4 +18,4 @@ admin.add_view(MyView(name='Hello 3', endpoint='test3', category='Test'))
 if __name__ == '__main__':
 
     # Start app
-    app.run()
+    app.run(host="0.0.0.0")
